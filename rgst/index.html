@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilities.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration_page</title>
+</head>
+<body>
+    <section>
+        <div class="containerr">
+            <div class="containerr-2">
+                <div class="wrapperr">
+                    <div>
+                        <img src="images/Lovepik_com-401914603-farmer.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h3>Sign Up Here</h3>
+                        <form  id="contactForm" action="https://formspree.io/f/xjvnjndo"
+                        method="POST">
+
+                            <label>Name</label> <br>
+                            <input type="text" required placeholder="Username">
+                            <br> <br>
+
+                            <label>Contact Information</label> <br>
+                            <input type="tel" id="phone" name="phone"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Phone No">
+                            <br> <br>
+
+                            <label>Date of Birth</label>
+                            <input type="date" required> 
+                            <br> <br>
+                            
+                            <!--checkbox-->
+                            <div class="checkbox">
+                            <label >Cooperative</label>
+                            <input type="checkbox">
+                            <label >NonCooperative</label>
+                            <input type="checkbox">
+                        </div>
+
+                            <a href="/rgst2/index.html" class="btn">Next</a>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
